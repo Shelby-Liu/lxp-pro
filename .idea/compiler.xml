@@ -7,14 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lxp-pro" />
+        <module name="lxp-pro-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lxp-pro-web" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lxp-pro" options="-parameters" />
       <module name="lxp-pro-web" options="-parameters" />
     </option>
   </component>

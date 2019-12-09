@@ -1,0 +1,54 @@
+server:
+  port: 7777
+  servlet:
+    context-path: /lxp-pro
+  tomcat:
+    uri-encoding: UTF-8
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+    port-header: X-Forwarded-Port
+
+spring:
+  datasource:
+    main:
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+      username: root
+      password: asd824671593.
+      validationQuery: SELECT 'x'
+
+      initialSize: 10
+      minIdle: 20
+      maxActive: 100
+      maxWait: 20000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: false
+      maxPoolPreparedStatementPerConnectionSize: 100
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+
+
+
+mybatis-plus:
+  mapper-locations: classpath:/com/lxp/**/*Mapper.xml
+  typeAliasesPackage: com.hgsoft.*.*.*.entity
+  global-config:
+    db-config:
+      id-type: input
+      field-strategy: NOT_NULL
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: false
+    #English notes
+    jdbc-type-for-null: 'null'
