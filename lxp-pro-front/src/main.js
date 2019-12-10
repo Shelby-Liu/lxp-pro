@@ -27,10 +27,16 @@ import * as filters from './filters' // global filters
  * Currently MockJs will be used in the production environment,
  * please remove it before going online! ! !
  */
+
 import { mockXHR } from '../mock'
 if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
+// 设置反向代理，前端请求默认发送到 http://localhost:8443/api
+var axios = require('axios')
+axios.defaults.baseURL = 'http://localhost:7777/api/lxp-pro'
+// 全局注册，之后可在其他组件中通过 this.$axios 发送数据
+Vue.prototype.$axios = axios
 
 Vue.use(Element, {
   size: Cookies.get('size') || 'medium' // set element-ui default size

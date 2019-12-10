@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(exclude = DruidDataSourceAutoConfigure.class)
 public class LxpProWebApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(LxpProWebApplication.class, args);
     }

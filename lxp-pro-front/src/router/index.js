@@ -106,6 +106,18 @@ export const constantRoutes = [
         component: () => import('@/views/guide/index'),
         name: 'Guide',
         meta: { title: 'Guide', icon: 'guide', noCache: true }
+      },
+      {
+        path: 'login',
+        component: () => import('@/views/my-project/Login'),
+        name: 'Login',
+        meta: { title: 'Login', icon: 'login', affix: true }
+      },
+      {
+        path: 'appindex',
+        component: () => import('@/views/my-project/home/Appindex'),
+        name: 'AppIndex',
+        meta: { title: 'AppIndex', icon: 'appindex', affix: true }
       }
     ]
   },
@@ -151,13 +163,7 @@ export const asyncRoutes = [
           roles: ['admin'] // or you can only set roles in sub nav
         }
       },
-      {
-        path: 'demo',
-        component: () => import('@/views/my-project/demo/demo'),
-        name: 'DemoArticle',
-        meta: { title: 'Demo Article', icon: 'edit' }
 
-      },
       {
         path: 'directive',
         component: () => import('@/views/permission/directive'),
