@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e879c0eb-30e3-4137-9d81-daa4ca0a985c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +58,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Draghu\PersonalProject\lxp-pro" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +186,7 @@
       <workItem from="1575876943057" duration="6314000" />
       <workItem from="1575897965824" duration="1209000" />
       <workItem from="1575941303776" duration="1230000" />
-      <workItem from="1576027106887" duration="1338000" />
+      <workItem from="1576027106887" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="清空">
       <created>1575644302719</created>
@@ -201,11 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576027812221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="删除不应提交部分">
+      <created>1576028512775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576028512775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lxp-pro-front/node_modules/@vue/cli-plugin-unit-jest/generator/template/tests/unit/example.spec.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -230,111 +250,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除不应提交部分" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575699632347">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1575699632347" />
-    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1575703525978">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1575703525978" />
-    <state x="373" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575701423033">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="373" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1575701423033" />
-    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575647389823">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1575647389823" />
-    <state x="385" y="15" key="CommitChangelistDialog2" timestamp="1575879621435">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="385" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1575879621435" />
-    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl" timestamp="1575640937374">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575640937374" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1575878840467">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575878840467" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1575878840466">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1575878840466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1575878840466">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1575878840466" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1575878840467">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1575878840467" />
-    <state width="1493" height="141" key="GridCell.Tab.1.bottom" timestamp="1575789182509">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="141" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575789182509" />
-    <state width="1493" height="141" key="GridCell.Tab.1.center" timestamp="1575789182509">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="141" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1575789182509" />
-    <state width="1493" height="141" key="GridCell.Tab.1.left" timestamp="1575789182509">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="141" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1575789182509" />
-    <state width="1493" height="141" key="GridCell.Tab.1.right" timestamp="1575789182509">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="141" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1575789182509" />
-    <state width="1493" height="54" key="GridCell.Tab.2.bottom" timestamp="1575651454144">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="54" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1575651454144" />
-    <state width="1493" height="54" key="GridCell.Tab.2.center" timestamp="1575651454144">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="54" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1575651454144" />
-    <state width="1493" height="54" key="GridCell.Tab.2.left" timestamp="1575651454144">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="54" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1575651454144" />
-    <state width="1493" height="54" key="GridCell.Tab.2.right" timestamp="1575651454144">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="54" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1575651454144" />
-    <state x="299" y="75" key="Maven.ArtifactSearchDialog" timestamp="1575707170188">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="299" y="75" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1575707170188" />
-    <state x="272" y="74" key="SettingsEditor" timestamp="1575646211471">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="272" y="74" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1575646211471" />
-    <state x="272" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1575640942739" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1575879752457">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1575879752457" />
-    <state x="461" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1575876942746">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="461" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1575876942746" />
-    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575638072094" />
-    <state x="564" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575642724724">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="564" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1575642724724" />
-    <state x="425" y="57" width="686" height="720" key="find.popup" timestamp="1575703072473">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="425" y="57" width="686" height="720" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1575703072473" />
-    <state x="476" y="219" key="git4idea.merge.GitPullDialog" timestamp="1575644263799">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="476" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1575644263799" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1575797855129">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1575797855129" />
+    <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" />
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" />
+    <state x="373" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" />
+    <state x="373" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" />
+    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" />
+    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" />
+    <state x="385" y="15" key="CommitChangelistDialog2" />
+    <state x="385" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" />
+    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl" />
+    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="141" key="GridCell.Tab.1.bottom" />
+    <state width="1493" height="141" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="141" key="GridCell.Tab.1.center" />
+    <state width="1493" height="141" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="141" key="GridCell.Tab.1.left" />
+    <state width="1493" height="141" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="141" key="GridCell.Tab.1.right" />
+    <state width="1493" height="141" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="54" key="GridCell.Tab.2.bottom" />
+    <state width="1493" height="54" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="54" key="GridCell.Tab.2.center" />
+    <state width="1493" height="54" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="54" key="GridCell.Tab.2.left" />
+    <state width="1493" height="54" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" />
+    <state width="1493" height="54" key="GridCell.Tab.2.right" />
+    <state width="1493" height="54" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" />
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog" />
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" />
+    <state x="272" y="74" key="SettingsEditor" />
+    <state x="272" y="74" key="SettingsEditor/0.0.1536.834@0.0.1536.834" />
+    <state x="272" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" />
+    <state x="461" y="251" key="com.intellij.ide.util.TipDialog" />
+    <state x="461" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" />
+    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" />
+    <state x="564" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="564" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" />
+    <state x="425" y="57" width="686" height="720" key="find.popup" />
+    <state x="425" y="57" width="686" height="720" key="find.popup/0.0.1536.834@0.0.1536.834" />
+    <state x="476" y="219" key="git4idea.merge.GitPullDialog" />
+    <state x="476" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" />
   </component>
 </project>
