@@ -46,7 +46,8 @@ service.interceptors.response.use(
     const res = response.data
 
     // if the custom code is not 20000, it is judged as an error.
-    if (res.code !== 20000) {
+    // todo res.code 后台返回没有做封装，故res.code = null, 目前暂时这样处理
+    if (res.code && res.code !== 20000) {
       Message({
         message: res.message || 'Error',
         type: 'error',

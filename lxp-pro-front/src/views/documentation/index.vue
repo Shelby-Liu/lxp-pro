@@ -21,17 +21,24 @@
       target="_blank"
       href="https://panjiachen.github.io/vue-element-admin-site/zh/job/"
     >内推招聘</a>
+    <div>
+      <p>{{ dataList }}</p>
+      <button @click="list">请求后台</button>
+    </div>
   </div>
+
 </template>
 
 <script>
 import DropdownMenu from '@/components/Share/DropdownMenu'
+import { list } from '../../api/lxp_pro_api/user'
 
 export default {
   name: 'Documentation',
   components: { DropdownMenu },
   data() {
     return {
+      dataList: [],
       articleList: [
         { title: '基础篇', href: 'https://juejin.im/post/59097cd7a22b9d0065fb61d2' },
         { title: '登录权限篇', href: 'https://juejin.im/post/591aa14f570c35006961acac' },
@@ -44,27 +51,42 @@ export default {
         { title: 'webpack4（下）', href: 'https://juejin.im/post/5b5d6d6f6fb9a04fea58aabc' }
       ]
     }
+  },
+  created() {
+    // this.list();
+  },
+  methods: {
+    list() {
+      list().then(res => {
+        this.dataList = res
+        console.log(res)
+      })
+      // axios.get('http://localhost:7777/api/pro/user/list').then(res => {
+      //     console.log(res);
+      // })
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.documentation-container {
-  margin: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  .document-btn {
-    margin-left: 50px;
-    display: block;
-    cursor: pointer;
-    background: black;
-    color: white;
-    height: 60px;
-    width: 200px;
-    margin-bottom: 16px;
-    line-height: 60px;
-    font-size: 20px;
-    text-align: center;
+  .documentation-container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .document-btn {
+      margin-left: 50px;
+      display: block;
+      cursor: pointer;
+      background: black;
+      color: white;
+      height: 60px;
+      width: 200px;
+      margin-bottom: 16px;
+      line-height: 60px;
+      font-size: 20px;
+      text-align: center;
+    }
   }
-}
 </style>
