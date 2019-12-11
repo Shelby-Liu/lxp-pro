@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e879c0eb-30e3-4137-9d81-daa4ca0a985c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxp-pro-front/public/login_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/views/documentation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/views/documentation/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/views/my-project/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/views/my-project/Login.vue" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,33 +58,73 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lxp-pro-front/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\lxp-pro\lxp-pro-front\public" />
       <recent name="C:\Users\Draghu\PersonalProject\lxp-pro" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LxpProWebApplication">
+    <configuration name="ControllerImg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxp.pro.crawing.ControllerImg" />
+      <module name="lxp-pro-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxp.pro.crawing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxp.pro.spider.utils.Match" />
+      <module name="lxp-pro-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxp.pro.spider.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxp.pro.spider.download.WebDownload" />
+      <module name="lxp-pro-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxp.pro.spider.download.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxp.pro.spider.test.test" />
+      <module name="lxp-pro-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxp.pro.spider.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LxpProWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lxp-pro-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lxp.pro.lxpproweb.LxpProWebApplication" />
@@ -96,6 +132,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lxp-pro-front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="Application.Match" />
+        <item itemvalue="Application.WebDownload" />
+        <item itemvalue="Application.ControllerImg" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -116,9 +183,7 @@
       <workItem from="1575897965824" duration="1209000" />
       <workItem from="1575941303776" duration="1230000" />
       <workItem from="1576027106887" duration="1900000" />
-      <workItem from="1576036619228" duration="623000" />
-      <workItem from="1576053708905" duration="4313000" />
-      <workItem from="1576065859795" duration="2352000" />
+      <workItem from="1576067156907" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="清空">
       <created>1575644302719</created>
@@ -148,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576028512775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新">
+      <created>1576034146678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576034146678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,8 +251,8 @@
     <MESSAGE value="清空" />
     <MESSAGE value="大致做了下爬虫  提取出需要的内容" />
     <MESSAGE value="删除不应提交部分" />
-    <MESSAGE value="完善前后分离" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善前后分离" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576033596034" />
@@ -191,32 +263,51 @@
     <state x="373" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
     <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576033596034" />
     <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state x="385" y="15" key="CommitChangelistDialog2" timestamp="1576034097364">
+    <state x="385" y="15" key="CommitChangelistDialog2" timestamp="1576034142552">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="385" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1576034097364" />
+    <state x="385" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1576034142552" />
     <state x="174" y="66" key="DiffContextDialog" timestamp="1576033614072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="174" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1576033614072" />
-    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl" timestamp="1576033596034" />
+    <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl" timestamp="1576034491963">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="1077" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1576034491963" />
     <state x="1077" y="170" width="438" height="497" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1576033596034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.bottom" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.center" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.left" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.right" timestamp="1576033596034" />
-    <state width="1493" height="141" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom" timestamp="1576035202574">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576035202574" />
+    <state width="1493" height="385" key="GridCell.Tab.0.center" timestamp="1576035202574">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576035202574" />
+    <state width="1493" height="385" key="GridCell.Tab.0.left" timestamp="1576035202574">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576035202574" />
+    <state width="1493" height="385" key="GridCell.Tab.0.right" timestamp="1576035202574">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576035202574" />
+    <state width="1493" height="385" key="GridCell.Tab.1.bottom" timestamp="1576035201412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576035201412" />
+    <state width="1493" height="385" key="GridCell.Tab.1.center" timestamp="1576035201412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576035201412" />
+    <state width="1493" height="385" key="GridCell.Tab.1.left" timestamp="1576035201412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576035201412" />
+    <state width="1493" height="385" key="GridCell.Tab.1.right" timestamp="1576035201412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576035201412" />
     <state width="1493" height="54" key="GridCell.Tab.2.bottom" timestamp="1576033596034" />
     <state width="1493" height="54" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
     <state width="1493" height="54" key="GridCell.Tab.2.center" timestamp="1576033596034" />
@@ -230,10 +321,14 @@
     <state x="272" y="74" key="SettingsEditor" timestamp="1576033596034" />
     <state x="272" y="74" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
     <state x="272" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576033596034" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1576033596034" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
-    <state x="461" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1576033596034" />
-    <state x="461" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1576033596034" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1576034150335">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1576034150335" />
+    <state x="461" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1576067157309">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="461" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1576067157308" />
     <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1576033596034" />
     <state x="564" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576033743403">
       <screen x="0" y="0" width="1536" height="834" />
