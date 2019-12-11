@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e879c0eb-30e3-4137-9d81-daa4ca0a985c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/views/documentation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/views/documentation/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-front/src/api/lxp_pro_api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/src/api/lxp_pro_api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/web/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +115,7 @@
       <workItem from="1576027106887" duration="1900000" />
       <workItem from="1576036619228" duration="623000" />
       <workItem from="1576053708905" duration="4313000" />
-      <workItem from="1576065859795" duration="2352000" />
+      <workItem from="1576065859795" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="清空">
       <created>1575644302719</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576028512775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完善前后分离">
+      <created>1576068287741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576068287741</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
