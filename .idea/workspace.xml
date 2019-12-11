@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e879c0eb-30e3-4137-9d81-daa4ca0a985c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e879c0eb-30e3-4137-9d81-daa4ca0a985c" name="Default Changelist" comment="增加git提交过滤项">
+      <change afterPath="$PROJECT_DIR$/lxp-pro-front/src/api/lxp_pro_api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/config/VueGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/util/UUIDWorkerInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lxp-pro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-front/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/java/com/lxp/pro/lxpproweb/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxp-pro-web/src/test/java/com/lxp/pro/lxpproweb/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxp-pro-web/src/test/java/com/lxp/pro/lxpproweb/Generator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +72,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -82,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Match">
+  <component name="RunManager" selected="Spring Boot.LxpProWebApplication">
     <configuration name="ControllerImg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lxp.pro.crawing.ControllerImg" />
       <module name="lxp-pro-web" />
@@ -186,7 +195,8 @@
       <workItem from="1575876943057" duration="6314000" />
       <workItem from="1575897965824" duration="1209000" />
       <workItem from="1575941303776" duration="1230000" />
-      <workItem from="1576027106887" duration="1900000" />
+      <workItem from="1576027106887" duration="7241000" />
+      <workItem from="1576034626494" duration="1930000" />
     </task>
     <task id="LOCAL-00001" summary="清空">
       <created>1575644302719</created>
@@ -216,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576028512775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加git提交过滤项">
+      <created>1576029117251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576029117251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +264,8 @@
     <MESSAGE value="清空" />
     <MESSAGE value="大致做了下爬虫  提取出需要的内容" />
     <MESSAGE value="删除不应提交部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除不应提交部分" />
+    <MESSAGE value="增加git提交过滤项" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加git提交过滤项" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="226" key="#com.intellij.fileTypes.FileTypeChooser" />

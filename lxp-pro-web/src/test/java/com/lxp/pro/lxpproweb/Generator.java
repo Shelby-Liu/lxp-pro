@@ -58,19 +58,6 @@ public class Generator {
 
             }
         };
-        /*List<FileOutConfig> focList = new ArrayList<FileOutConfig>();
-        // 调整 xml 生成目录演示
-        focList.add(new FileOutConfig("/mybatis/template/mapper.xml.vm") {
-            @Override
-            public String outputFile(TableInfo tableInfo) {
-                return "C:\\deployment\\IdeaProject\\ecip\\ecip-web\\src\\main\\java\\com\\hgsoft\\ecip\\web\\rbac\\mapper\\"
-                        + tableInfo.getEntityName() + "Mapper.xml";
-            }
-        });
-        cfg.setFileOutConfigList(focList);
-        TemplateConfig tc = new TemplateConfig();
-        tc.setXml(null);*/
-
         new AutoGenerator().setGlobalConfig(config)
                 .setCfg(cfg)
 //                .setTemplate(tc)

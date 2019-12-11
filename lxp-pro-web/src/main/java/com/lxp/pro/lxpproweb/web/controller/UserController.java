@@ -17,7 +17,7 @@ import java.util.List;
  * @since 2019-12-06
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/pro/user")
 public class UserController {
 
     @Resource
@@ -27,6 +27,11 @@ public class UserController {
     public String save(@RequestBody String loginInfo) {
         System.out.println(loginInfo);
         return "demo";
+    }
+
+    @GetMapping("/list")
+    public List<User> list() {
+        return userService.list();
     }
 
 }
