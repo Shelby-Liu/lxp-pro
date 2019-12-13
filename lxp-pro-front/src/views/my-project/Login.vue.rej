@@ -1,0 +1,4 @@
+diff a/lxp-pro-front/src/views/my-project/Login.vue b/lxp-pro-front/src/views/my-project/Login.vue	(rejected hunks)
+@@ -30 +30 @@ export default {
+-        
++

@@ -1,4 +1,5 @@
-import { login, logout, getInfo } from '@/api/user'
+import { logout, getInfo } from '@/api/user'
+import { login } from '../../api/lxp_pro_api/user'
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import router, { resetRouter } from '@/router'
 
@@ -30,14 +31,27 @@ const mutations = {
 
 const actions = {
   // user login
-  login({ commit }, userInfo) {
-    const { username, password } = userInfo
+  login: function ({commit}, userInfo) {
+    const {username, password} = userInfo
     return new Promise((resolve, reject) => {
-      login({ username: username.trim(), password: password }).then(response => {
-        const { data } = response
-        commit('SET_TOKEN', data.token)
-        setToken(data.token)
-        resolve()
+      login({username: username.trim(), password: password}).then(response => {
+        if (response === 'success') {
+          const {data} = {
+            code: 20000,
+            data: {
+              token: 'admin-token'
+            }
+          }
+          commit('SET_TOKEN', data.token)
+          setToken(data.token)
+          resolve()
+        } else {
+          alert('账号或密码错误！')
+          reject({
+            code: 60204,
+            message: '账号或密码错误！'
+          })
+        }
       }).catch(error => {
         reject(error)
       })

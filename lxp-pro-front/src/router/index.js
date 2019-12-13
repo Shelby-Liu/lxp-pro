@@ -117,7 +117,7 @@ export const constantRoutes = [
         path: 'appindex',
         component: () => import('@/views/my-project/home/Appindex'),
         name: 'AppIndex',
-        meta: { title: 'AppIndex', icon: 'appindex', affix: true }
+        meta: { title: 'AppIndex', icon: 'appindex', affix: false }
       }
     ]
   },

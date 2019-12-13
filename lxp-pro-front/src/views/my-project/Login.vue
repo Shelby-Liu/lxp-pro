@@ -18,7 +18,7 @@
 </template>
 
 <script>
-
+import { login } from '../../api/lxp_pro_api/user'
 export default {
   name: 'Login',
   components: {},
@@ -27,25 +27,33 @@ export default {
       loginForm: {
         username: 'admin',
         password: '123456'
-
       },
       responseResult: []
     }
   },
   methods: {
     login() {
-      this.$axios
-        .post('/login', {
-          username: this.loginForm.username,
-          password: this.loginForm.password
-        })
-        .then(successResponse => {
-          if (successResponse.data.code === 200) {
-            this.$router.replace({ path: '/appindex' })
-          }
-        })
-        .catch(failResponse => {
-        })
+      // this.$axios
+      //   .post('/login', {
+      //     username: this.loginForm.username,
+      //     password: this.loginForm.password
+      //   })
+      //   .then(successResponse => {
+      //     if (successResponse.data.code === 200) {
+      //       this.$router.replace({ path: '/guide/appindex' })
+      //    this.
+      //     }
+      //   })
+      //   .catch(failResponse => {
+      //   })
+      login({ username: this.loginForm.username, password: this.loginForm.password }).then(res => {
+        if (res === 'success') {
+          alert('登录成功')
+          this.$router.push('/guide/appindex')
+        } else {
+          alert('登陆失败')
+        }
+      })
     }
   }
 }

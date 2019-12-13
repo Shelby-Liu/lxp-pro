@@ -34,3 +34,11 @@ export const save = (data) => {
     data: data
   })
 }
+
+export const login = (data) => {
+  return request({
+    url: `/api/pro/user/login`,
+    method: 'post',
+    data: data
+  })
+}

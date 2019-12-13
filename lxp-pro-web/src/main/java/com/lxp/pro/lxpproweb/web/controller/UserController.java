@@ -1,6 +1,7 @@
 package com.lxp.pro.lxpproweb.web.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.lxp.pro.lxpproweb.entity.User;
 import com.lxp.pro.lxpproweb.service.UserService;
 import org.springframework.web.bind.annotation.*;
@@ -31,6 +32,12 @@ public class UserController {
 
     @GetMapping("/list")
     public List<User> list() {
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        // == select * form where id = 1
+        wrapper.eq("id", 1);
+
+        wrapper.like("username", "lut");
+
         return userService.list();
     }
 
@@ -48,6 +55,19 @@ public class UserController {
     @PostMapping("/save")
     public void save(@RequestBody User user) {
         userService.save(user);
+    }
+
+    @PostMapping("/login")
+    public String login(@RequestBody User user){
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.eq("username",user.getUsername()).eq("password", user.getPassword());
+        int count = userService.count(wrapper);
+//        select count(1) from user where username = #{username} and password = #{password}
+        if (count == 1) {
+            return "success";
+        } else {
+            return "error";
+        }
     }
 
 }

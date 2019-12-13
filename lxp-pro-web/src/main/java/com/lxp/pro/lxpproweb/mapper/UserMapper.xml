@@ -6,11 +6,13 @@
     <resultMap id="BaseResultMap" type="com.lxp.pro.lxpproweb.entity.User">
         <id column="id" property="id" />
         <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="realName" property="realName" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        username, id
+        username, id, password, realName
     </sql>
 
 </mapper>

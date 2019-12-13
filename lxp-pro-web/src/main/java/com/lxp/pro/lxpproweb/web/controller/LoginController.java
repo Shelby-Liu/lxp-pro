@@ -13,9 +13,7 @@ import java.util.Objects;
 @Controller
 public class LoginController {
 
-    @CrossOrigin
-    @PostMapping(value = "api/login")
-    @ResponseBody
+    @PostMapping(value = "/api/lxp-pro/login")
     public Result login(@RequestBody User requestUser) {
         // 对 html 标签进行转义，防止 XSS 攻击
         String username = requestUser.getUsername();

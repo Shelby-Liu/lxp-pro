@@ -13,9 +13,9 @@ spring:
   datasource:
     main:
       type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+      url: jdbc:mysql://localhost:3306/tise?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
       username: root
-      password: draghu
+      password: asd824671593.
       validationQuery: SELECT 'x'
 
       initialSize: 10
