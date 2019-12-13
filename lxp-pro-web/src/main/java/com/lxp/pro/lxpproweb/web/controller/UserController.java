@@ -34,5 +34,21 @@ public class UserController {
         return userService.list();
     }
 
+    @PutMapping("/update/{id}")
+    public void update(@PathVariable Integer id, @RequestBody User user) {
+        user.setId(id);
+        userService.updateById(user);
+    }
+
+    @DeleteMapping("/remove/{id}")
+    public void remove(@PathVariable Integer id) {
+        userService.removeById(id);
+    }
+
+    @PostMapping("/save")
+    public void save(@RequestBody User user) {
+        userService.save(user);
+    }
+
 }
 
